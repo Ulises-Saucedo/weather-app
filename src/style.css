@@ -5,6 +5,23 @@
   font-family: Helvetica, sans-serif
 }
 
+body {
+  background: #1F2937;
+}
+
+/* body {
+  background-color: #192841;
+  background-image: linear-gradient(#203354 2px, transparent 2px), linear-gradient(90deg, #203354 2px, transparent 2px), linear-gradient(#203354 1px, transparent 1px), linear-gradient(90deg, #203354 1px, #192841 1px);
+  background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
+  background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+} */
+
+/* .container {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(180deg, rgba(139, 198, 236, 0) 0%, #03193d 95%, #011029 100%);
+} */
+
 .search{
   display: flex;
   width: 75%;
@@ -27,7 +44,6 @@
 
 .search button{
   width: calc(20% - 10px);
-  background: rgb(105, 183, 255);
   cursor: pointer;
 }
 
@@ -40,10 +56,13 @@ main{
   display: flex;
   justify-content: space-between;
   padding: 10px;
+  color: #fff;
+  font-weight: 600;
 }
 
 .found span{
-  color: rgb(255, 67, 67);
+  color: #fff;
+  font-weight: 600;
 }
 
 img{
@@ -52,6 +71,6 @@ img{
 }
 
 .not_found{
-  color: rgb(255, 67, 67);
+  color: #fff;
   text-align: center;
 }
